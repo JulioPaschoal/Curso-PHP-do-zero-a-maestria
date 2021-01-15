@@ -1,0 +1,16 @@
+<?php
+
+if (is_int(5)) {
+    echo "É um inteiro <br>";
+}
+
+
+if (is_int("Não é um inteiro")) {
+    echo "É um inteiro <br>";
+}
+
+$a = 15;
+
+if(is_int($a)){
+echo"É um inteiro";
+}
